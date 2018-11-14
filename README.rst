@@ -2,6 +2,10 @@
  pytimeparse: time expression parser
 =====================================
 
+.. note::
+    This is a fork of `pytimeparse <https://github.com/wroberts/pytimeparse>`_. Only changes being support for months and years.
+    This was specifically forked for use in piqueserver.
+
 .. image:: https://travis-ci.org/wroberts/pytimeparse.svg?branch=master
     :target: https://travis-ci.org/wroberts/pytimeparse
     :alt: Travis CI build status
