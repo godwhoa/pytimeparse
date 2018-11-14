@@ -8,7 +8,8 @@ setup.py
 distutils setup script for pytimeparse.
 '''
 
-from setuptools import setup, find_packages  # Always prefer setuptools over distutils
+# Always prefer setuptools over distutils
+from setuptools import setup, find_packages
 from codecs import open  # To use a consistent encoding
 from os import path
 
@@ -33,11 +34,13 @@ setup(
     long_description=LONG_DESCRIPTION,
 
     # The project's main homepage.
-    url='https://github.com/wroberts/pytimeparse',
+    url='https://github.com/godwhoa/pytimeparse',
 
     # Author details
     author='Will Roberts',
     author_email='wildwilhelm@gmail.com',
+    maintainer='Joseph Daniel',
+    maintainer_email='gjdaniel1999@gmail.com',
 
     # Choose your license
     license='License :: OSI Approved :: MIT License',
@@ -81,7 +84,7 @@ setup(
     # List additional groups of dependencies here (e.g. development dependencies).
     # You can install these using the following syntax, for example:
     # $ pip install -e .[dev,test]
-    #extras_require = {
+    # extras_require = {
     #    'dev': ['check-manifest'],
     #    'test': ['coverage'],
     #},
@@ -102,7 +105,7 @@ setup(
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
-    #entry_points={
+    # entry_points={
     #    'console_scripts': [
     #        'sample=sample:main',
     #    ],

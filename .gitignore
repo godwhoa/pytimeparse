@@ -5,4 +5,4 @@
 /MANIFEST
 /build/
 /dist/
-/pytimeparse.egg-info/
+/*.egg-info/
